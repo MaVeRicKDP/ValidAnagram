@@ -9,3 +9,6 @@ function checkAnagram(str1, str2) {
 
   return sorted1 === sorted2; // Comparing sorted strings
 }
+
+console.log(checkAnagram("listen", "silent")); 
+console.log(checkAnagram("hello", "world"));
